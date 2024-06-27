@@ -10,6 +10,25 @@ const MobileNav = () => {
     <div className='text-3xl cursor-pointer'>
       <CgMenuRight className='text-2xl' />
     </div>
+    {/*menu*/}
+    <div className='bg-white shadow-2xl w-full absolute top-0 right-0 max-w-xs h-screen z-20'>
+      <div>icon</div>
+      {/* menu list */}
+      <ul className='flex flex-col gap-y-4 items-center justify-center h-full'>
+        <li>
+          <Link to='/' className='text-2xl'>Home</Link>
+        </li>
+        <li>
+          <Link to='/about' className='text-2xl'>About</Link>
+        </li>
+        <li>
+          <Link to='/portfolio' className='text-2xl'>Portfolio</Link>
+        </li>
+        <li>
+          <Link to='/contact' className='text-2xl'>Contact</Link>
+        </li>
+      </ul>
+      </div>
   </nav>;
 };
 
