@@ -18,8 +18,8 @@ const Header = () => {
         {/* nav bar here !*/}
         <nav className='hidden xl:flex gap-x-12 font-semibold'>
           <Link to='/' className='text-[#696c6d] hover:text-primary transition'>Home</Link>
-          <Link to='/about' className='text-[#696c6d] hover:text-primary transition'>Projects</Link>
-          <Link to='/portfolio' className='text-[#696c6d] hover:text-primary transition'>Our Team</Link>
+          <Link to='/about' className='text-[#696c6d] hover:text-primary transition'>Who we are</Link>
+          <Link to='/portfolio' className='text-[#696c6d] hover:text-primary transition'>Our programs</Link>
           <Link to='/contact' className='text-[#696c6d] hover:text-primary transition'>Donate</Link>
         </nav>
       </div>

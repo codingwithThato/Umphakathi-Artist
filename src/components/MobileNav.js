@@ -49,10 +49,10 @@ const MobileNav = () => {
           <Link to='/' className='text-2xl'>Home</Link>
         </li>
         <li>
-          <Link to='/about' className='text-2xl'>Projects</Link>
+          <Link to='/about' className='text-2xl'>Who we are</Link>
         </li>
         <li>
-          <Link to='/portfolio' className='text-2xl'>Our Team</Link>
+          <Link to='/portfolio' className='text-2xl'>Our programs</Link>
         </li>
         <li>
           <Link to='/contact' className='text-2xl'>Donate</Link>
