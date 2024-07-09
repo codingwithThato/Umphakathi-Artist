@@ -25,7 +25,7 @@ const Contact = () => {
           exit={{ opacity: 0, y: '-80%' }} 
           className='lg:flex-1 lg:pt-32 px-4'>
             <h1 className='h1'>Donate</h1>
-            <p className='mb-12'>Lorem ipsum for contacting --if needed ? </p> 
+            <p className='mb-12'>Under Construction: bank details go here</p> 
           </motion.div>
 
           {/*  */}

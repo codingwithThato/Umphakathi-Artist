@@ -1,5 +1,5 @@
 import React from 'react';
-import companyImg from '../img/about/house.jpeg';
+import companyImg from '../img/about/who.jpeg';
 import { Link } from 'react-router-dom';
 import { motion } from 'framer-motion';
 import { transition1 } from '../transitions';

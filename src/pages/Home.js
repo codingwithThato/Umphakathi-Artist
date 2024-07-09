@@ -2,7 +2,7 @@ import React from 'react';
 import { Link } from 'react-router-dom';
 import { motion } from 'framer-motion'; 
 import { transition1 } from '../transitions';
-import Button28 from '../components/Button28';
+import Button28 from '../components/Button28'; 
 
 //importing images below
 import CompanyImg from '../img/home/home.jpeg';
