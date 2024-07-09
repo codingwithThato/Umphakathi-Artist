@@ -1,0 +1,32 @@
+/* InfiniteMovingCards.css */
+.infinite-moving-cards {
+    overflow: hidden;
+    white-space: nowrap;
+    position: relative;
+  }
+  
+  .cards-wrapper {
+    display: inline-block;
+    animation: scroll 10s linear infinite;
+  }
+  
+  .card {
+    display: inline-block;
+    margin: 0 10px;
+  }
+  
+  .card img {
+    width: 100px; /* Adjust as needed */
+    height: auto;
+    display: block;
+  }
+  
+  @keyframes scroll {
+    0% {
+      transform: translateX(0);
+    }
+    100% {
+      transform: translateX(-100%);
+    }
+  }
+  
