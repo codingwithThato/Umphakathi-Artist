@@ -149,9 +149,9 @@ const About = () => {
             </p>
           </div>
         </div>
+      <br/><br/>
       </div>
  
-      <br/><br/>
       {/* <div className="flex flex-col lg:flex-row gap-y-12 lg:gap-x-24 lg:mt-24 justify-center items-center sm:mx-10 p-11">
         <div className='flex-1 flex p-4 mb-12'>
           <h1 className='font-primary lg:ml-80 lg:text-[36px] text-[26px]'>Events we have held:</h1>
