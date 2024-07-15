@@ -5,6 +5,16 @@ import { motion } from 'framer-motion';
 import { transition1 } from '../transitions';
 import Button28 from '../components/Button28';
 import InfiniteMovingCards from '../components/InfiniteMovingCards'; 
+// import { CardStack } from '../components/ui/card-stack';
+
+// // images for card-stack
+// import Event1 from '../img/events/event0.jpg';
+// import Event2 from '../img/events/event1.jpeg';
+// import Event3 from '../img/events/event2.jpeg';
+// import Event4 from '../img/events/event3.jpeg';
+// import Event5 from '../img/events/event4.jpeg';
+// import Event6 from '../img/events/event5.jpeg';
+// import Event7 from '../img/events/event6.jpeg';
 
 //images
 import accessibility from '../img/about/accessibility.svg';
@@ -24,6 +34,38 @@ import Collaborator9 from '../img/about/collaborator9.jpeg';
 import Collaborator10 from '../img/about/collaborator10.jpeg';
 import Collaborator11 from '../img/about/collaborator11.jpeg';
 import Collaborator12 from '../img/about/collaborator12.jpeg';
+
+
+// const items = [
+//   {
+//     id: 1,
+//     image: Event1,
+//   },
+//   {
+//     id: 2,
+//     image: Event2,
+//   },
+//   {
+//     id: 3,
+//     image: Event3,
+//   },
+//   {
+//     id: 4,
+//     image: Event4,
+//   },
+//   {
+//     id: 5,
+//     image: Event5,
+//   },
+//   {
+//     id: 6,
+//     image: Event6,
+//   },
+//   {
+//     id: 7,
+//     image: Event7,
+//   }
+// ];
 
 const About = () => {
   const collaboratorImages = [Collaborator1, Collaborator2, Collaborator3, Collaborator12, Collaborator4, Collaborator5, Collaborator6, Collaborator7, Collaborator8, Collaborator9, Collaborator10, Collaborator11];
@@ -107,8 +149,17 @@ const About = () => {
             </p>
           </div>
         </div>
-        <br/><br/>
       </div>
+ 
+      <br/><br/>
+      {/* <div className="flex flex-col lg:flex-row gap-y-12 lg:gap-x-24 lg:mt-24 justify-center items-center sm:mx-10 p-11">
+        <div className='flex-1 flex p-4 mb-12'>
+          <h1 className='font-primary lg:ml-80 lg:text-[36px] text-[26px]'>Events we have held:</h1>
+        </div>
+        <div className='flex-1 flex justify-center'>
+        <CardStack items={items} offset={15} scaleFactor={0.05} /> 
+        </div>
+      </div> */}
     </motion.section>
   );
 };
