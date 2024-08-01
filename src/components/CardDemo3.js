@@ -2,7 +2,7 @@
 // import cn from "../components/lib/cn.ts";
 // import * as cn from "../components/lib/cn.ts";
 import { cn } from "../components/lib/cn.ts";
-import cardBackground from '../img/portfolio/11.jpeg'; 
+import cardBackground from '../img/SONGS_OF_FREEDOM/image00003.jpeg'; 
 
 export function CardDemo3() {
   return (

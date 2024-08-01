@@ -24,7 +24,6 @@ import localArt from '../img/about/localArtist.svg';
 // Importing images for horizontal scroll thingy below
 import Collaborator1 from '../img/about/collaborator1.jpeg';
 import Collaborator2 from '../img/about/collaborator2.jpeg';
-import Collaborator3 from '../img/about/collaborator3.jpeg';
 import Collaborator4 from '../img/about/collaborator4.jpeg';
 import Collaborator5 from '../img/about/collaborator5.jpeg';
 import Collaborator6 from '../img/about/collaborator6.jpeg';
@@ -35,40 +34,8 @@ import Collaborator10 from '../img/about/collaborator10.jpeg';
 import Collaborator11 from '../img/about/collaborator11.jpeg';
 import Collaborator12 from '../img/about/collaborator12.jpeg';
 
-
-// const items = [
-//   {
-//     id: 1,
-//     image: Event1,
-//   },
-//   {
-//     id: 2,
-//     image: Event2,
-//   },
-//   {
-//     id: 3,
-//     image: Event3,
-//   },
-//   {
-//     id: 4,
-//     image: Event4,
-//   },
-//   {
-//     id: 5,
-//     image: Event5,
-//   },
-//   {
-//     id: 6,
-//     image: Event6,
-//   },
-//   {
-//     id: 7,
-//     image: Event7,
-//   }
-// ];
-
 const About = () => {
-  const collaboratorImages = [Collaborator1, Collaborator2, Collaborator3, Collaborator12, Collaborator4, Collaborator5, Collaborator6, Collaborator7, Collaborator8, Collaborator9, Collaborator10, Collaborator11];
+  const collaboratorImages = [Collaborator1, Collaborator2, Collaborator12, Collaborator8, Collaborator4, Collaborator5, Collaborator6, Collaborator7, Collaborator9, Collaborator10, Collaborator11];
 
   return (
     <motion.section 
@@ -98,8 +65,9 @@ const About = () => {
           className='flex-1 pt-36 pb-14 lg:pt-0 lg:w-auto z-10 flex flex-col justify-center items-center lg:items-start'>
             <h1 className='h1 lg:text-[100px]'>Who we are</h1>
             <p className='mb-12 max-1-sm'>
-            Umphakathi Artist is a Non-Profit Organisation
-            established in 2019, meaning a Community of Artists.
+            {/* Umphakathi Artist is a Non-Profit Organisation
+            established in 2019, meaning a 'Community of Artists'. */}
+            Umphakathi Artist, a Non-Profit Organisation meaning 'Community of Artists', was established in 2019.
             </p> 
 
             <p className='text-[20px] lg:text-[20px] font-primary italic mb-4 lg:mb-12'>Our collaborators</p>
